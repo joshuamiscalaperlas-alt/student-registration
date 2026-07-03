@@ -10,7 +10,7 @@ function RegistrationForm() {
     e.preventDefault();
 
     if (name === "" || email === "") {
-      alert("Palihog kompletoha ang fields");
+      alert("Please fill in all fields");
       return;
     }
 
